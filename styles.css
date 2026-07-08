@@ -1,0 +1,37 @@
+header,footer,.sec1{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+}
+body{
+    font-family: Roboto,sans-serif;
+}
+header{
+    justify-content: space-between;
+}
+.sec1{
+    justify-content: space-evenly;
+    h1{
+        font-size:48px;
+    }
+}
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.sec22{
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        width:200px;
+        height: 200px;
+    }
+}
+.sec3{
+    display: flex;
+    background-color: #e5e7eb;
+}
+.sec4{
+    background-color: #3882f6;
+}
